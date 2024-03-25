@@ -1,0 +1,553 @@
+/* this is where all of your CSS styles go */
+
+/* base of the book layout */
+.bookcover {
+	width: 800px;
+	height: 1400px;
+	background: #A69A85;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 0;
+}
+
+.line1 {
+	width: 0px;
+	height: 775px;
+	border-left: 2px solid #B12028;
+	transform: rotate(90deg);
+	position: absolute;
+	top: -50px;
+	left: 410px;
+	z-index: 2;
+}
+
+.line2 {
+	width: 0px;
+	height: 775px;
+	border-left: 2px solid #B12028;
+	transform: rotate(90deg);
+	position: absolute;
+	top: -225px;
+	left: 410px;
+	z-index: 2;
+}
+
+.line3 {
+	width: 0px;
+	height: 775px;
+	border-left: 2px solid #B12028;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 990px;
+	left: 410px;
+	z-index: 2;
+}
+
+
+.circle {
+	width: 750px;
+	height: 775px;
+	background: transparent;
+	position: absolute;
+	border-radius: 100%;
+	border: 2px solid #B12028;
+	z-index: 4;
+	top: 570px;
+	left: 25px;
+	overflow: hidden;
+}
+
+/* here is all of the elements/shapes that should be inside the circle border */
+
+.square2 {
+	width: 775px;
+	height: 150px;
+	background: #F2E5BD;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+}
+
+/* first section */ 
+.bluesquare1 {
+	width: 85px;
+	height: 775px;
+	background: #226B73;
+	position: absolute;
+}
+
+.blacksquare1 {
+	width: 85px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+}
+
+.redcircle1 {
+	width: 70px;
+	height: 70px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 360px;
+	left: 7px;
+	z-index: 3;
+}
+
+/* second section */ 
+.bluesquare2 {
+	width: 75px;
+	height: 775px;
+	background: #226B73;
+	position: absolute;
+	left: 95px;
+	z-index: 3;
+}
+
+.blacksquare2 {
+	width: 75px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 95px;
+}
+
+.redcircle2 {
+	width: 63px;
+	height: 63px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 363px;
+	left: 101px;
+	z-index: 3;
+}
+
+/* section 3 */ 
+.bluesquare3 {
+	width: 65px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 185px;
+	z-index: 3;
+}
+
+.blacksquare3 {
+	width: 65px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 185px;
+}
+
+.redcircle3 {
+	width: 54px;
+	height: 54px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 368px;
+	left: 190px;
+	z-index: 3;
+}
+
+
+/* section 4 */
+.bluesquare4 {
+	width: 55px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 270px;
+	z-index: 3;
+}
+
+.blacksquare4 {
+	width: 55px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 270px;
+}
+
+.redcircle4 {
+	width: 43px;
+	height: 43px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 372px;
+	left: 276px;
+	z-index: 3;
+}
+
+/* section 5 */
+.bluesquare5 {
+	width: 45px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 350px;
+	z-index: 3;
+}
+
+.blacksquare5 {
+	width: 45px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 350px;
+}
+
+.redcircle5 {
+	width: 34px;
+	height: 34px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 377px;
+	left: 355px;
+	z-index: 3;
+}
+
+/*section 6 */ 
+.bluesquare6 {
+	width: 35px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 430px;
+	z-index: 3;
+}
+
+.blacksquare6 {
+	width: 35px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 430px;
+}
+
+.redcircle6 {
+	width: 25px;
+	height: 25px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 382px;
+	left: 435px;
+	z-index: 3;
+}
+
+/* section 7 */
+.bluesquare7 {
+	width: 25px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 510px;
+	z-index: 3;
+}
+
+.blacksquare7 {
+	width: 25px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 510px;
+}
+
+.redcircle7 {
+	width: 17px;
+	height: 17px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 383px;
+	left: 513px;
+	z-index: 3;
+}
+
+/* section 8*/
+.bluesquare8 {
+	width: 15px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 585px;
+	z-index: 3;
+}
+
+.blacksquare8 {
+	width: 15px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 585px;
+}
+
+.redcircle8 {
+	width: 10px;
+	height: 10px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 388px;
+	left: 587px;
+	z-index: 3;
+}
+
+/*section 9*/
+.bluesquare9 {
+	width: 12px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 665px;
+	z-index: 3;
+}
+
+.blacksquare9 {
+	width: 12px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 665px;
+}
+
+.redcircle9 {
+	width: 8px;
+	height: 8px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 390px;
+	left: 667px;
+	z-index: 3;
+}
+
+/*section 10*/
+.bluesquare10 {
+	width: 10px;
+	height: 795px;
+	background: #226B73;
+	position: absolute;
+	left: 740;
+	z-index: 3;
+}
+
+.blacksquare10 {
+	width: 10px;
+	height: 150px;
+	background: #40373F;
+	position: absolute;
+	z-index: 3;
+	top: 320px;
+	left: 740px;
+}
+
+.redcircle10 {
+	width: 7px;
+	height: 7px;
+	background: #F25252;
+	border-radius: 100%;
+	position: absolute;
+	top: 390px;
+	left: 742px;
+	z-index: 3;
+}
+
+
+/* text elements go below!!! */
+@font-face {
+	font-family: robotoflex;
+	src:url(../fonts/RobotoFlex.ttf);
+}
+
+.title {
+	font-family: robotoflex;
+	font-size: 65px;
+	font-weight: 590;
+	color: #F2E5BD;
+	position: absolute;
+	top: 105px;
+	left: 300px;
+	animation: title infinite alternate 4s;
+}
+
+.logo {
+	width: 90px;
+	height: auto;
+	position: absolute;
+	left: 25px;
+	top: 30px;
+}
+
+.publisher {
+	font-family: robotoflex;
+	font-size: 45px;
+	font-weight: 450;
+	color: #226B73;
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+
+.author {
+	font-family: robotoflex;
+	font-size: 48px;
+	font-weight: 650;
+	color: #226B73;
+	position: absolute;
+	top: 305px;
+	left: 300px;
+}
+
+
+/* animation information belowww */
+
+@keyframes title {
+0% { font-variation-settings: "wdth" 60; }
+100% { font-variation-settings: "wdth" 100; }
+}
+
+@keyframes redcircle1_move {
+0% { top: 360px; left: 7px; }
+50% { top: 360px; left: 42px; }
+100% { top: 360px; left: 7px; }
+}
+
+.redcircle1 {
+	position: relative;
+	animation: redcircle1_move 4s infinite;
+}
+
+@keyframes redcircle2_move {
+0% { top: 363px; left: 101px; }
+50% { top: 363px; left: 140px; }
+100% { top: 363px; left: 101px; }
+}
+
+.redcircle2 {
+	position: absolute;
+	animation: redcircle2_move 4s infinite;
+	animation-delay: 1s;
+}
+
+@keyframes redcircle3_move {
+0% { top: 368px; left: 190px; }
+50% { top: 368px; left: 235px; }
+100% { top: 368px; left: 190px; }
+}
+
+.redcircle3 {
+	position: absolute;
+	animation: redcircle3_move 4s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes redcircle4_move {
+0% { top: 372px; left: 276px; }
+50% { top: 372px; left: 326px; }
+100% { top: 372px; left: 276px; }
+}
+
+.redcircle4 {
+	position: absolute;
+	animation: redcircle4_move 4s infinite;
+	animation-delay: 3s;
+}
+
+@keyframes redcircle5_move {
+0% { top: 377px; left: 355px; }
+50% { top: 377px; left: 415px; }
+100% { top: 377px; left: 355px; }
+}
+
+.redcircle5 {
+	position: absolute;
+	animation: redcircle5_move 4s infinite;
+	animation-delay: 4s;
+}
+
+@keyframes redcircle6_move {
+0% { top: 382px; left: 435px; }
+50% { top: 382px; left: 499px; }
+100% { top: 382px; left: 435px; }
+}
+
+.redcircle6 {
+	position: absolute;
+	animation: redcircle6_move 4s infinite;
+	animation-delay: 5s;
+}
+
+@keyframes redcircle7_move {
+0% { top: 385px; left: 513px; }
+50% { top: 385px; left: 579px; }
+100% { top: 385px; left: 513px; }
+}
+
+.redcircle7 {
+	position: absolute;
+	animation: redcircle7_move 4s infinite;
+	animation-delay: 6s;
+}
+
+@keyframes redcircle8_move {
+0% { top: 388px; left: 587px; }
+50% { top: 388px; left: 664px; }
+100% { top: 388px; left: 587px; }
+}
+
+.redcircle8 {
+	position: absolute;
+	animation: redcircle8_move 4s infinite;
+	animation-delay: 7s;
+}
+
+@keyframes redcircle9_move {
+0% { top: 390px; left: 667px; }
+50% { top: 390px; left: 735px; }
+100% { top: 390px; left: 667px; }
+}
+
+.redcircle9 {
+	position: absolute;
+	animation: redcircle9_move 4s infinite;
+	animation-delay: 8s;
+}
+
+@keyframes redcircle10_move {
+0% { top: 390px; left: 742px; }
+50% { top: 390px; left: 755px; }
+100% { top: 390px; left: 742px; }
+}
+
+.redcircle10 {
+	position: absolute;
+	animation: redcircle10_move 4s infinite;
+	animation-delay: 9s;
+}
+
